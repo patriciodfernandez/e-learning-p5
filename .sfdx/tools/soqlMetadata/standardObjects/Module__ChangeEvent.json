@@ -1,0 +1,451 @@
+{
+  "fields": [
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Change Event ID",
+      "name": "Id",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Replay ID",
+      "name": "ReplayId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Change Event Header",
+      "name": "ChangeEventHeader",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "complexvalue"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Owner ID",
+      "name": "OwnerId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "Group",
+        "User"
+      ],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "<Entity>",
+      "name": "Name",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Unit Quantity",
+      "name": "Unit_Quantity__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "double"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Points",
+      "name": "Points__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "double"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Description",
+      "name": "Description__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Active",
+      "name": "Active__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Skills",
+      "name": "Skills__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Crm",
+          "validFor": null,
+          "value": "Crm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Data Management",
+          "validFor": null,
+          "value": "Data Management"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "General",
+          "validFor": null,
+          "value": "General"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Security",
+          "validFor": null,
+          "value": "Security"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Apex",
+          "validFor": null,
+          "value": "Apex"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lightning",
+          "validFor": null,
+          "value": "Lightning"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Visualforce",
+          "validFor": null,
+          "value": "Visualforce"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "App Lifecycle",
+          "validFor": null,
+          "value": "App Lifecycle"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "App Logic",
+          "validFor": null,
+          "value": "App Logic"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Integration",
+          "validFor": null,
+          "value": "Integration"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Roles",
+      "name": "Roles__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Admin",
+          "validFor": null,
+          "value": "Admin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Developer",
+          "validFor": null,
+          "value": "Developer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Salesforce Employee",
+          "validFor": null,
+          "value": "Salesforce Employee"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Architect",
+          "validFor": null,
+          "value": "Architect"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Business Analyst",
+          "validFor": null,
+          "value": "Business Analyst"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Test Cindy",
+          "validFor": null,
+          "value": "Test Cindy"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Marketer",
+          "validFor": null,
+          "value": "Marketer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Designer",
+          "validFor": null,
+          "value": "Designer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Business User",
+          "validFor": null,
+          "value": "Business User"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sales",
+          "validFor": null,
+          "value": "Sales"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Commerce",
+          "validFor": null,
+          "value": "Commerce"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ciber Security",
+          "validFor": null,
+          "value": "Ciber Security"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Service",
+          "validFor": null,
+          "value": "Service"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "multipicklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Total Time Estimated",
+      "name": "Total_Time_Estimated__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "double"
+    }
+  ],
+  "label": "Change Event: Module",
+  "childRelationships": [],
+  "custom": false,
+  "name": "Module__ChangeEvent",
+  "queryable": false
+}

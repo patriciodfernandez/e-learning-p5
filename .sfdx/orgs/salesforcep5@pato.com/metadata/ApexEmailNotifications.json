@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0058c00000BXD69AAH",
+    "createdByName": "patricio fernandez",
+    "createdDate": "1970-01-01T00:00:00.000Z",
+    "fileName": "apexEmailNotifications/apexEmailNotifications.notifications",
+    "fullName": "apexEmailNotifications",
+    "id": "",
+    "lastModifiedById": "0058c00000BXD69AAH",
+    "lastModifiedByName": "patricio fernandez",
+    "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+    "namespacePrefix": "",
+    "type": "ApexEmailNotifications"
+  }
+}

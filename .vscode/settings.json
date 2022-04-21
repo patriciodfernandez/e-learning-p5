@@ -1,0 +1,5 @@
+{
+    "salesforcedx-vscode-apex.advanced.enable-completion-statistics": true,
+    "salesforcedx-vscode-apex.enable-semantic-errors": true,
+    "apexPMD.enableCache": true
+}
